@@ -1,6 +1,6 @@
 # Terpene-former
 
-This is the directory of the work 
+This is the directory of the work [paper title](paper link).
 
 ## Dependency
 
