@@ -14,7 +14,7 @@ def gaussian(x, mean, amplitude, standard_deviation):
     return amplitude * np.exp(- (x - mean) ** 2 / (2 * standard_deviation ** 2))
 
 
-class RetroFormer():
+class Terpeneformer():
     def __init__(self, checkpoint_path=None, vocab_path=None, rc_path=None, device='cpu'):
         self.device = device
         if vocab_path is not None:
