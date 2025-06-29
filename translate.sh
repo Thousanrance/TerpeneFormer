@@ -1,8 +1,8 @@
 #!/bin/bash
 
-data_dir=/username/Terpene-former/data/Retro-tero/random_split
-intermediate_dir=/username/Terpene-former/data/intermediate
-checkpoint_dir=/username/Terpene-former/ckpts
+data_dir=/path/to/Terpene-former/data/Retro-tero/random_split
+intermediate_dir=/path/to/Terpene-former/data/intermediate
+checkpoint_dir=/path/to/Terpene-former/ckpts
 
 export PYTHONPATH=$(pwd)
 
