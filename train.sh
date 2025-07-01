@@ -6,6 +6,7 @@ data_dir=/path/to/Terpene-former/data/Retro-tero/random_split
 intermediate_dir=/path/to/Terpene-former/data/intermediate
 checkpoint_dir=/path/to/Terpene-former/ckpts
 
+cd code
 export PYTHONPATH=$(pwd)
 
 python -u train.py \
