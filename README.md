@@ -1,4 +1,4 @@
-# Terpene-former
+# TerpeneFormer
 
 This is the directory of the work [paper title](paper link).
 
