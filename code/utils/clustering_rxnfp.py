@@ -247,9 +247,9 @@ if __name__ == "__main__":
     os.environ['PYTHONHASHSEED'] = str(seed)
     np.random.seed(seed)
 
-    pure_dataset_paths = ['/path/to/Terpene-former/data/Retro-tero/random_split',
-                          '/path/to/Terpene-former/data/Retro-tero/tanimoto_split_thres0.6',
-                          '/path/to/Terpene-former/data/Retro-tero/tanimoto_split_thres0.4']
+    pure_dataset_paths = ['/path/to/Terpene-former/data/TeroRXN/random_split',
+                          '/path/to/Terpene-former/data/TeroRXN/tanimoto_split_thres0.6',
+                          '/path/to/Terpene-former/data/TeroRXN/tanimoto_split_thres0.4']
 
     for pure_dataset_path in pure_dataset_paths:
         csv_path = f'{pure_dataset_path}/train_enz_rxnfp.csv'

@@ -52,7 +52,7 @@ def get_translate_args():
     parser.add_argument('--steps', type=int)
     parser.add_argument('--sample', action='store_true')
 
-    parser.add_argument('--data_dir', type=str, default='/path/to/Retro-tero/random_split', help='base directory')
+    parser.add_argument('--data_dir', type=str, default='/path/to/TeroRXN/random_split', help='base directory')
     parser.add_argument('--intermediate_dir', type=str, default='/path/to/intermediate', help='intermediate directory')
     parser.add_argument('--checkpoint_dir', type=str, default='/path/to/ckpts', help='checkpoint directory')
     parser.add_argument('--checkpoint', type=str, help='checkpoint model file')

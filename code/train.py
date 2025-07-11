@@ -38,7 +38,7 @@ parser.add_argument('--lr_scheduler_patience', type=int, default=10, help='Reduc
 parser.add_argument('--min_lr', type=float, default=1e-5, help='minimum learning rate for ReduceLROnPlateau')
 
 parser.add_argument('--log_dir', type=str, default='/path/to/log', help='log directory')
-parser.add_argument('--data_dir', type=str, default='/path/to/Retro-tero/random_split', help='base directory')
+parser.add_argument('--data_dir', type=str, default='/path/to/TeroRXN/random_split', help='base directory')
 parser.add_argument('--intermediate_dir', type=str, default='/path/to/intermediate', help='intermediate directory')
 parser.add_argument('--checkpoint_dir', type=str, default='/path/to/ckpts', help='checkpoint directory')
 parser.add_argument('--checkpoint', type=str, default='', help='checkpoint model file')

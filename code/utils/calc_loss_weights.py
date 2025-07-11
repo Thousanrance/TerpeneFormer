@@ -1,8 +1,8 @@
 import pandas as pd
 
-train_csvs = ['/path/to/Terpene-former/data/Retro-tero/random_split/train_enz_rxnfp.csv',
-              '/path/to/Terpene-former/data/Retro-tero/tanimoto_split_thres0.6/train_enz_rxnfp.csv',
-              '/path/to/Terpene-former/data/Retro-tero/tanimoto_split_thres0.4/train_enz_rxnfp.csv']
+train_csvs = ['/path/to/Terpene-former/data/TeroRXN/random_split/train_enz_rxnfp.csv',
+              '/path/to/Terpene-former/data/TeroRXN/tanimoto_split_thres0.6/train_enz_rxnfp.csv',
+              '/path/to/Terpene-former/data/TeroRXN/tanimoto_split_thres0.4/train_enz_rxnfp.csv']
 
 num_classes = 10
 

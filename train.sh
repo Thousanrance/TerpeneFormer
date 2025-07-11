@@ -2,7 +2,7 @@
 
 log_dir=/path/to/Terpene-former/log
 
-data_dir=/path/to/Terpene-former/data/Retro-tero/random_split
+data_dir=/path/to/Terpene-former/data/TeroRXN/random_split
 intermediate_dir=/path/to/Terpene-former/data/intermediate
 checkpoint_dir=/path/to/Terpene-former/ckpts
 
